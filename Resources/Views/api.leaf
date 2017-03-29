@@ -1,0 +1,16 @@
+
+#export("head"){
+  <title>PETS API</title>
+}
+
+#export("body"){
+  <h1>Pets API</h1>
+  <br><br>
+  <h2>GET</h2>
+  <body>To get a list of all pets: <br>post GET to /pets.<br><br> To get a single
+    pet by ID: <br>post GET to pet/(idnumber)</body>
+  <br><br>
+  <h2>POST</h2>
+  <body>To post a single pet: <br>post POST to /pet.<br><br>To post multiple pets
+    as JSON:<br>post POST to /pets</body>
+}
